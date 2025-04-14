@@ -1,11 +1,77 @@
-# LatticeBased-Dv-zkSNARK
-This is the source code for paper "Lattice-Based Designated Verifier zkSNARKs From Standard
-Assumptions"
-The Work is based on the source of [ Implementation of lattice trapdoors on modules and appli-
-cations]~\ref{https://github.com/lucasprabel/module_gaussian_lattice.
-}
-To compile the file use the following command
+# 📜 Lattice-Based Designated Verifier zkSNARK
+
+This repository contains the source code for the paper:
+
+**“Lattice-Based Designated Verifier zkSNARKs From Standard Assumptions”**
+
+> This work is based on the implementation from  
+> [module_gaussian_lattice](https://github.com/lucasprabel/module_gaussian_lattice), which provides foundational support for lattice trapdoors on modules and their applications.
+
+---
+
+## 🔧 Getting Started
+
+### 🔨 Compilation
+
+To compile the main protocol file, simply run:
+
+```bash
 make mainprotocol.c
-Then run it with 
+```
+
+### ▶️ Running the Protocol
+
+After compiling, execute the protocol with:
+
+```bash
 ./mainprotocol
-Note that you can chnage the length of witness by changing the parameter "PARAM_NumTrapdoors" in the "common.h" file
+```
+
+---
+
+## ⚙️ Configuration
+
+You can **customize the length of the witness** by changing the following parameter in the `common.h` file:
+
+```c
+#define PARAM_NumTrapdoors <desired_length>
+```
+
+Replace `<desired_length>` with your desired witness length.
+
+---
+
+## 📚 Citation
+
+If you use this work in your research or publication, please cite:
+
+```
+@misc{latticebased-zksnark2025,
+  title={Lattice-Based Designated Verifier zkSNARKs From Standard Assumptions},
+  author={Author(s) Name},
+  year={2025},
+  note={Available at: \url{https://github.com/YOUR_USERNAME/LatticeBased-Dv-zkSNARK}},
+  howpublished={\texttt{https://github.com/YOUR_USERNAME/LatticeBased-Dv-zkSNARK}}
+}
+```
+
+> *Please update the `author` and `URL` fields to reflect your details if publishing.*
+
+---
+
+## 📁 Repository Structure
+
+```
+.
+├── common.h              # Shared parameters (e.g., PARAM_NumTrapdoors)
+├── mainprotocol.c        # Main protocol source file
+├── Makefile              # Build configuration
+└── ...
+```
+
+---
+
+## 🧠 Acknowledgments
+
+- Based on [lucasprabel/module_gaussian_lattice](https://github.com/lucasprabel/module_gaussian_lattice)
+- Thanks to the cryptographic community for continued research in post-quantum secure zkSNARKs.
