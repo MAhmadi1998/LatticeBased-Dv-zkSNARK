@@ -41,24 +41,6 @@ Replace `<desired_length>` with your desired witness length.
 
 ---
 
-## 📚 Citation
-
-If you use this work in your research or publication, please cite:
-
-```
-@misc{latticebased-zksnark2025,
-  title={Lattice-Based Designated Verifier zkSNARKs From Standard Assumptions},
-  author={Author(s) Name},
-  year={2025},
-  note={Available at: \url{https://github.com/YOUR_USERNAME/LatticeBased-Dv-zkSNARK}},
-  howpublished={\texttt{https://github.com/YOUR_USERNAME/LatticeBased-Dv-zkSNARK}}
-}
-```
-
-> *Please update the `author` and `URL` fields to reflect your details if publishing.*
-
----
-
 ## 📁 Repository Structure
 
 ```
