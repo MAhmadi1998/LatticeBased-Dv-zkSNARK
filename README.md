@@ -3,6 +3,7 @@
 This repository contains the source code for the paper:
 
 **“Lattice-Based Designated Verifier zkSNARKs From Standard Assumptions”**
+https://eprint.iacr.org/2025/2099
 
 > This work is based on the implementation from  
 > [module_gaussian_lattice](https://github.com/lucasprabel/module_gaussian_lattice), which provides foundational support for lattice trapdoors on modules and their applications.
